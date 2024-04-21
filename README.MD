@@ -15,7 +15,7 @@
   </p>
 </div>
 
-  What you can do with it?
+  **What can you do with it?**
 - Using the trigger Ctrl+Shift+E, you can open edit page.
 - Using the trigger Ctrl+Shift+K, you can save your project. 
 
