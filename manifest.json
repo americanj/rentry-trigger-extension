@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Rentry Triggers",
+  "version": "1.0",
+  "description": "Useful triggers for online markdown editor rentry.co",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "inject-script": {
+      "suggested_key": "Ctrl+Shift+E",
+      "description": "Edit"
+    },
+    "inject-script2": {
+      "suggested_key": "Ctrl+Shift+K",
+      "description": "Save"
+    }
+  },
+  "action": {
+    "default_icon": {
+      "16": "./img/pen.png",
+      "32": "./img/pen.png", 
+      "48": "./img/pen.png", 
+      "128": "./img/pen.png" 
+    }
+  },
+  "icons": {
+    "128": "./img/pen.png" 
+  }
+}
