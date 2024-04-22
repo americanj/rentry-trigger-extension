@@ -30,4 +30,7 @@ Archive: `background.js`
 inputPassword.value = 'your password';
 ```
 
+**Potential Changes**
+- [ ] When save the current page, open edit page again.
+
 
